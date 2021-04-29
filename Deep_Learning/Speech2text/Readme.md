@@ -22,4 +22,6 @@ Model: There are 2 blocks which are included within the Seq2Seq class,the Encode
 The above configuration achieves a Levenshtein score of 24.3
 
 Visualizing the attention plot gives the following result:
+
+
 ![alt text](https://github.com/SaiPrahladh/Course-Projects/blob/master/Deep_Learning/Speech2text/Attention.png)
