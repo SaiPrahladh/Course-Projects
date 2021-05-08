@@ -24,7 +24,7 @@ of ResNets:
 1. https://analyticsindiamag.com/why-resnets-are-a-major-breakthrough-in-image-processing/
 2. https://towardsdatascience.com/introduction-to-resnets-c0a830a288a4
 
-<img src="https://www.researchgate.net/figure/ResNet-18-Architecture_tbl1_322476121" width="300" height="300" />
+<img src="https://github.com/SaiPrahladh/Course-Projects/blob/master/Deep_Learning/FaceVerification/ResNet-18-Architecture.png" width="300" height="300" />
 
 
 The data we are dealing with here is of the dimension 64x64x3
