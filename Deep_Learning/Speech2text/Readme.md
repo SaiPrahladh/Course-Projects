@@ -1,4 +1,4 @@
-Attention-based End-to-End Speech-to-Text Deep Neural Network
+## Attention-based End-to-End Speech-to-Text Deep Neural Network
 
 Implementation of the research paper 'Listen Attend and Spell'
 Ref: https://arxiv.org/abs/1508.01211
@@ -19,3 +19,9 @@ Num_epochs = 60
 
 Model: There are 2 blocks which are included within the Seq2Seq class,the Encoder and the Decoder. The attention mechanism is implemented as a part of the decoder block. The model has input dimensions 40 and hidden size = 256. We also have 3 pyramidal BiLSTM blocks invoked in the Encoder block. The implementation of teacher forcing has a variable rate with respect to the number of epochs. There are locked dropout layers invoked in between each of the pBLSTM layer in the Encoder. Implementing weight tying in the decoder block is a beneficial step.
 
+The above configuration achieves a Levenshtein score of 24.3
+
+Visualizing the attention plot gives the following result:
+
+
+![alt text](https://github.com/SaiPrahladh/Course-Projects/blob/master/Deep_Learning/Speech2text/Attention.png)
