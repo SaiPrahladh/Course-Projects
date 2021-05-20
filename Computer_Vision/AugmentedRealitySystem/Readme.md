@@ -13,6 +13,8 @@ The matching then can be performed by finding the descriptors in either images w
 This can be achieved by using FAST detector along with the BRIEF descriptor.We can use these matched points to calculate the Planar Homography matrix that will 
 represent the mapping. The numerical stability of the solution can be improved by normalizing the Homography matrix such that
 
+<img src="https://github.com/SaiPrahladh/Course-Projects/blob/master/Computer_Vision/AugmentedRealitySystem/AR.gif" width="300" height="300" />
+
 1. Mean of the matrix is now the origin
 2. The maximum absolute value of the matrix is 1 We can then implement RANSAC to compute a homography. 
 
